@@ -1,0 +1,44 @@
+.toolbar {
+	width: 30%;
+	position: fixed;
+	border: black solid 1px;
+	height: 100%;
+}
+
+.detail {
+	margin-left: 30%;
+	width: 100%;
+	position: fixed;
+	border: red solid 1px;
+	height: 100%;
+}
+
+.caixaa {
+	height: 100%;
+	display: block;
+	border: green solid 1px;
+}
+
+.toolbarList {
+	padding:0;
+	margin: 0;
+	overflow: auto;
+	height: 100%;
+	border: yellow solid 1px;
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+li {
+	border: pink solid 1px;
+}
+
+/* Change the link color on hover */
+li:hover {
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+}
